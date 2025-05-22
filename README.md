@@ -11,6 +11,7 @@ O curso de Introdução à Robótica da UFRB visa fornecer aos estudantes os fun
 Este repositório contém:
 
 - **Scripts e códigos**: Implementações práticas dos conceitos abordados em aula
+    1. [Instalação do ROS](./ros/)
 - **Materiais de referência**: Resumos e notas de aula
 - **Projetos**: Exemplos de projetos desenvolvidos durante o curso
 - **Exercícios**: Listas de exercícios e suas soluções
