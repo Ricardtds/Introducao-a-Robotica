@@ -11,7 +11,7 @@ O curso de Introdução à Robótica da UFRB visa fornecer aos estudantes os fun
 Este repositório contém:
 
 - **Scripts e códigos**: Implementações práticas dos conceitos abordados em aula
-    1. [Instalação do ROS](./ros/)
+    1. [Instalação do ROS 1](./ros/)
 - **Materiais de referência**: Resumos e notas de aula
 - **Projetos**: Exemplos de projetos desenvolvidos durante o curso
 - **Exercícios**: Listas de exercícios e suas soluções
@@ -19,11 +19,13 @@ Este repositório contém:
 ## Referências Bibliográficas
 
 ### Livros Recomendados
+
 - Craig, J. J. "Introduction to Robotics: Mechanics and Control"
 - Siciliano, B., Sciavicco, L., Villani, L., Oriolo, G. "Robotics: Modelling, Planning and Control"
 - Spong, M. W., Hutchinson, S., Vidyasagar, M. "Robot Modeling and Control"
 
 ### Sites e Recursos Online
+
 - [ROS (Robot Operating System)](https://www.ros.org/)
 - [IEEE Robotics and Automation Society](https://www.ieee-ras.org/)
 - [Robotics Stack Exchange](https://robotics.stackexchange.com/)
@@ -37,6 +39,7 @@ Este repositório contém:
 ## Como Contribuir
 
 Sinta-se à vontade para contribuir com este repositório através de:
+
 - Adição de novos scripts e exemplos
 - Correção de erros
 - Sugestão de novos materiais e referências
