@@ -83,7 +83,7 @@ reboot
 
 ---
 
-## 5 – PASSO – Instalação do ROS1 versão Noetic
+## 5 – PASSO – Instalação do ROS1 versão Noetic + Turtblebot2
 
 ``` bash
 wget -qO - https://raw.githubusercontent.com/Ricardtds/Introducao-a-Robotica/refs/heads/main/ros/ros-install.sh | bash
