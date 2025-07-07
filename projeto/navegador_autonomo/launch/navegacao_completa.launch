@@ -1,0 +1,26 @@
+<launch>
+    <!-- Parâmetro global para forçar todos os nós a usar o tempo da simulação do Gazebo -->
+    <param name="/use_sim_time" value="true"/>
+
+    <!-- Argumento para definir o caminho do arquivo de mundo -->
+    <arg name="world_file" default="$(find navegador_autonomo)/worlds/sala.world" />
+
+    <!-- 1. Inicia o Gazebo com o mundo do TurtleBot -->
+    <include file="$(find turtlebot_gazebo)/launch/turtlebot_world.launch">
+        <arg name="world_file" value="$(arg world_file)" />
+    </include>
+
+    <!-- 2. Inicia o GMapping -->
+    <include file="$(find turtlebot_gazebo)/launch/gmapping_demo.launch" />
+
+    <!-- 3. Inicia o RViz com uma configuração para navegação -->
+    <include file="$(find turtlebot_rviz_launchers)/launch/view_navigation.launch" />
+
+    <!-- 4. Inicia o nó de navegação autônoma com um atraso de 5 segundos -->
+    <node name="exploration_navigator_node"
+          pkg="navegador_autonomo"
+          type="navegador_final.py"
+          output="screen"
+          launch-prefix="bash -c 'sleep 5; $0 $@' ">
+    </node>
+</launch>
