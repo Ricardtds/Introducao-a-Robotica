@@ -1,0 +1,1 @@
+roslaunch turtlebot_gazebo turtlebot_world.launch world_file:=/home/robotica/catkin_ws/src/navegador_autonomo/worlds/sala.world
