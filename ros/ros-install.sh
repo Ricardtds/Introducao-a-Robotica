@@ -77,5 +77,6 @@ source ~/.bashrc
 echo ">>> Corrigindo possível erro do Python..."
 sudo ln -sf /usr/bin/python3 /usr/bin/python || true
 pip install -U rospy
+sudo apt install -y python3-rospy python3-tf2-ros python3-nav-msgs python3-geometry-msgs python3-tf python3-tf2 python3-heapdict python3-numpy python3-scipy
 
 echo ">>> Instalação concluída com sucesso!"
